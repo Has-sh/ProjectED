@@ -1,6 +1,7 @@
 #nav-bar{
     background-image: none;
 }
+
 #login .custom-login{
     font-family: 'Oswald',sans-serif;
     font-size: 32px;
@@ -25,8 +26,6 @@
 #login .custom-btn{
     background-color: darkcyan;
     font-family: 'Figtree', 'serif';
-    font-size: 18px;
-    font-weight: 600;
 }
 #login .custom-btn:hover{
     background-color: rgba(0, 139, 139, 0.8);

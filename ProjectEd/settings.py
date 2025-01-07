@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'homepage.apps.HomepageConfig',
     'authentication.apps.AuthenticationConfig',
+    'tutorFinder.apps.TutorFinderConfig',
 ]
 
 MIDDLEWARE = [

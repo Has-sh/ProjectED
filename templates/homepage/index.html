@@ -8,284 +8,287 @@
 {% block title %} Home Page {% endblock %}
 
 {% block content %}
-<section id="banner">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="text-row col-md-4 col-12 text-center text-md-start order-2 order-md-1">
-                <h1 class="mb-md-5">Learn faster with your best language tutor.</h1>
-                <button class="btn btn-dark btn-lg w-75 mb-3">
-                    <span class="align-text-bottom" style="position: relative; top: -2px; font-family: 'Figtree','serif'">Get started</span>
-                    <i class="bi bi-arrow-right-short fs-3"></i>
-                </button>
-            </div>
-            <div class="col-md-7 col-12 text-center order-1 order-md-2">
-                <img
-                        src="{% static 'homepage/banner.png' %}"
-                        loading="lazy"
-                        alt="Tutoring made easy all across Pakistan"
-                        class="img-fluid d-inline-block align-text-bottom"
-                >
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="cards">
-    <div class="container mt-5">
-        <div class="row row-cols-1 row-cols-md-5 g-4">
-            <div class="col">
-                <div class="stat">
-                    <h2>50,000+</h2>
-                    <p>Experienced tutors</p>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="stat">
-                    <h2>300,000+</h2>
-                    <p>5-star tutor reviews</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="stat">
-                    <h2>120+</h2>
-                    <p>Subjects taught</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="stat">
-                    <h2>180+</h2>
-                    <p>Tutor nationalities</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="stat">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <h2 class="me-2">5.0</h2>
-                        <span class="fa fa-star me-1"></span>
-                        <span class="fa fa-star me-1"></span>
-                        <span class="fa fa-star me-1"></span>
-                        <span class="fa fa-star me-1"></span>
-                        <span class="fa fa-star me-1"></span>
-                    </div>
-                    <p>on the App Store</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row row-cols-1 row-cols-md-3 g-md-4">
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">English tutors</h2>
-                                <p class="card-text">27,668 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">German tutors</h2>
-                                <p class="card-text">8,817 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">Chinese tutors</h2>
-                                <p class="card-text">3,373 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">French tutors</h2>
-                                <p class="card-text">2,218 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">Arabic tutors</h2>
-                                <p class="card-text">3,373 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <a href="#" class="stretched-link"></a>
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-clock"></i>
-                            <div class="ms-4">
-                                <h2 class="card-title mb-1">Italian tutors</h2>
-                                <p class="card-text">1,358 teachers</p>
-                            </div>
-                        </div>
-                        <i class="bi bi-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="middle-page">
-    <div class="container py-4">
-        <div class="row">
-            <div class="d-flex justify-content-center">
-                <h1 class="custom-large-heading">Find the right tutor for you.</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="d-flex justify-content-center">
-                <p class="fs-5 mt-md-2">With over 30,000 tutors and 1M+ learners, we know language learning.</p>
-            </div>
-        </div>
+    <section id="banner">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center pt-md-5 pb-md-5">
-                <button class="btn btn-light">
-                    <i class="bi bi-chevron-left"></i>
-                </button>
-                <div class="col-md-4 ms-md-3 p-1">
-                    <img src="{% static 'homepage/person-placeholder.jpg' %}"
-                         alt="Our Tutors" loading="lazy"
-                         class="img-fluid"
+            <div class="row align-items-center">
+                <div class="text-row col-md-4 col-12 text-center text-md-start order-2 order-md-1">
+                    <h1 class="mb-md-5">Learn faster with your best tutor.</h1>
+                    <a href="/find-tutors/" class="text-decoration-none">
+                        <button class="btn btn-dark btn-lg custom-figtree-font w-75 mb-3">
+                            <span class="align-text-bottom" style="position: relative; top: -2px;">Get started</span>
+                            <i class="bi bi-arrow-right-short fs-3"></i>
+                        </button>
+                    </a>
+
+                </div>
+                <div class="col-md-7 col-12 text-center order-1 order-md-2">
+                    <img
+                            src="{% static 'homepage/banner.png' %}"
+                            loading="lazy"
+                            alt="Tutoring made easy all across Pakistan"
+                            class="img-fluid d-inline-block align-text-bottom"
                     >
                 </div>
-                <div class="col-md-5 ms-md-5 p-1">
-                    <h2>"With just a few lessons you can already see the difference"</h2>
-                    <p class="mt-md-4">
-                        <b>Filip</b>
-                        <br>English Learner on ProjectED
-                    </p>
-                </div>
-                <button class="btn btn-light">
-                    <i class="bi bi-chevron-right"></i>
-                </button>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="how-it-works">
-    <div class="container">
-        <h2 class="custom-medium-heading">How ProjectED works:</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 d-flex align-items-stretch">
-            <div class="col">
-                <div class="card border-black h-100">
-                    <div class="card-body">
-                        <div class="col-1 pb-md-3">
-                            <img class="card-img-top img-fluid" src="{% static 'homepage/one.png' %}" alt="1" loading="lazy">
-                        </div>
-                        <h1 class="card-title">Find your tutor.</h1>
-                        <p class="card-text fs-6">We’ll connect you with a tutor who will motivate, challenge, and inspire you.</p>
-                        <img class="img-fluid" style="width: 100%" src="{% static 'homepage/find-your-tutor.png' %}" alt="Reach you goal" loading="lazy">
-
+    <section id="cards">
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-5 g-4">
+                <div class="col">
+                    <div class="stat">
+                        <h2>50,000+</h2>
+                        <p>Experienced tutors</p>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card border-black h-100">
-                    <div class="card-body">
-                        <div class="col-1 pb-md-3">
-                            <img class="card-img-top img-fluid" src="{% static 'homepage/two.png' %}" alt="2" loading="lazy" >
-                        </div>
-                        <h1 class="card-title">Start learning.</h1>
-                        <p class="card-text fs-6">Your tutor will guide the way through your first lesson and help you plan your next steps.</p>
-                        <img class="img-fluid" src="{% static 'homepage/start-learning.jpg' %}" alt="Start learning from the best" loading="lazy">
+
+                <div class="col">
+                    <div class="stat">
+                        <h2>300,000+</h2>
+                        <p>5-star tutor reviews</p>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card border-black h-100">
-                    <div class="card-body">
-                        <div class="col-1 pb-md-3">
-                            <img class="card-img-top img-fluid" src="{% static 'homepage/three.png' %}" alt="3" loading="lazy">
+                <div class="col">
+                    <div class="stat">
+                        <h2>120+</h2>
+                        <p>Subjects taught</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="stat">
+                        <h2>180+</h2>
+                        <p>Tutor nationalities</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="stat">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <h2 class="me-2">5.0</h2>
+                            <span class="fa fa-star me-1"></span>
+                            <span class="fa fa-star me-1"></span>
+                            <span class="fa fa-star me-1"></span>
+                            <span class="fa fa-star me-1"></span>
+                            <span class="fa fa-star me-1"></span>
                         </div>
-                        <h1 class="card-title">Speak. Read.<br>Write. Repeat. </h1>
-                        <p class="card-text fs-6">Choose how many lessons you want to take each week and get ready to reach your goals!</p>
-                        <img class="img-fluid" style="width: 100%" src="{% static 'homepage/speak-read-write-repeat.jpg' %}" alt="Reach you goal" loading="lazy">
+                        <p>on the App Store</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section id="banner2" class="d-flex flex-column align-items-center justify-content-center text-center py-5 my-5">
-    <div class="container">
-        <h1 class="display-5 fw-bold mb-3">Lessons you'll love. Guaranteed.</h1>
-        <p class="fs-5 mt-md-2">Try another tutor for free if you're not satisfied.</p>
-    </div>
-</section>
-
-<section id="last-card">
-    <div class="container border-black border p-0 mb-5">
-        <div class="row d-flex justify-content-center g-0">
-            <div class="col-md-6 d-none d-md-block">
-                <img src="{% static 'homepage/bottom-card.jpg' %}" alt="become a successful tutor" loading="lazy" class="img-fluid w-100">
-            </div>
-            <div class="col-md-6 col-12 custom-card-right">
-                <h1 class="custom-large-heading">Become a tutor</h1>
-                <p class="py-3">Earn money sharing your expert knowledge with students. Sign up to start tutoring online with ProjectED.</p>
-                <ul>
-                    <li>
-                        <h3>Find new students</h3>
-                    </li>
-                    <li>
-                        <h3>Grow your business</h3>
-                    </li>
-                    <li>
-                        <h3>Get paid securely</h3>
-                    </li>
-                </ul>
-                <button class="btn btn-dark custom-btn1 w-100 my-md-4 d-flex align-items-center justify-content-center">
-                    <span>Become a tutor</span>
-                    <i class="bi bi-arrow-right-short fs-3 ms-2"></i>
-                </button>
-                <a href="#" class="custom-href">how our platform works</a>
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-3 g-md-4">
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">English tutors</h2>
+                                    <p class="card-text">27,668 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">German tutors</h2>
+                                    <p class="card-text">8,817 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">Chinese tutors</h2>
+                                    <p class="card-text">3,373 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">French tutors</h2>
+                                    <p class="card-text">2,218 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">Arabic tutors</h2>
+                                    <p class="card-text">3,373 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#" class="stretched-link"></a>
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-clock"></i>
+                                <div class="ms-4">
+                                    <h2 class="card-title mb-1">Italian tutors</h2>
+                                    <p class="card-text">1,358 teachers</p>
+                                </div>
+                            </div>
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section id="middle-page">
+        <div class="container py-4">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h1 class="custom-large-heading">Find the right tutor for you.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <p class="fs-5 mt-md-2">With over 30,000 tutors and 1M+ learners, we know language learning.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center pt-md-5 pb-md-5">
+                    <button class="btn btn-light">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <div class="col-md-4 ms-md-3 p-1">
+                        <img src="{% static 'homepage/person-placeholder.jpg' %}"
+                             alt="Our Tutors" loading="lazy"
+                             class="img-fluid"
+                        >
+                    </div>
+                    <div class="col-md-5 ms-md-5 p-1">
+                        <h2>"With just a few lessons you can already see the difference"</h2>
+                        <p class="mt-md-4">
+                            <b>Filip</b>
+                            <br>English Learner on ProjectED
+                        </p>
+                    </div>
+                    <button class="btn btn-light">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2 class="custom-medium-heading">How ProjectED works:</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 d-flex align-items-stretch">
+                <div class="col">
+                    <div class="card border-black h-100">
+                        <div class="card-body">
+                            <div class="col-1 pb-md-3">
+                                <img class="card-img-top img-fluid" src="{% static 'homepage/one.png' %}" alt="1" loading="lazy">
+                            </div>
+                            <h1 class="card-title">Find your tutor.</h1>
+                            <p class="card-text fs-6">We’ll connect you with a tutor who will motivate, challenge, and inspire you.</p>
+                            <img class="img-fluid" style="width: 100%" src="{% static 'homepage/find-your-tutor.png' %}" alt="Reach you goal" loading="lazy">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-black h-100">
+                        <div class="card-body">
+                            <div class="col-1 pb-md-3">
+                                <img class="card-img-top img-fluid" src="{% static 'homepage/two.png' %}" alt="2" loading="lazy" >
+                            </div>
+                            <h1 class="card-title">Start learning.</h1>
+                            <p class="card-text fs-6">Your tutor will guide the way through your first lesson and help you plan your next steps.</p>
+                            <img class="img-fluid" src="{% static 'homepage/start-learning.jpg' %}" alt="Start learning from the best" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-black h-100">
+                        <div class="card-body">
+                            <div class="col-1 pb-md-3">
+                                <img class="card-img-top img-fluid" src="{% static 'homepage/three.png' %}" alt="3" loading="lazy">
+                            </div>
+                            <h1 class="card-title">Speak. Read.<br>Write. Repeat. </h1>
+                            <p class="card-text fs-6">Choose how many lessons you want to take each week and get ready to reach your goals!</p>
+                            <img class="img-fluid" style="width: 100%" src="{% static 'homepage/speak-read-write-repeat.jpg' %}" alt="Reach you goal" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner2" class="d-flex flex-column align-items-center justify-content-center text-center py-5 my-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold mb-3">Lessons you'll love. Guaranteed.</h1>
+            <p class="fs-5 mt-md-2">Try another tutor for free if you're not satisfied.</p>
+        </div>
+    </section>
+
+    <section id="last-card">
+        <div class="container border-black border p-0 mb-5">
+            <div class="row d-flex justify-content-center g-0">
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="{% static 'homepage/bottom-card.jpg' %}" alt="become a successful tutor" loading="lazy" class="img-fluid w-100">
+                </div>
+                <div class="col-md-6 col-12 custom-card-right">
+                    <h1 class="custom-large-heading">Become a tutor</h1>
+                    <p class="py-3">Earn money sharing your expert knowledge with students. Sign up to start tutoring online with ProjectED.</p>
+                    <ul>
+                        <li>
+                            <h3>Find new students</h3>
+                        </li>
+                        <li>
+                            <h3>Grow your business</h3>
+                        </li>
+                        <li>
+                            <h3>Get paid securely</h3>
+                        </li>
+                    </ul>
+                    <button class="btn btn-dark btn-lg custom-figtree-font w-100 my-md-4 d-flex align-items-center justify-content-center">
+                        <span>Become a tutor</span>
+                        <i class="bi bi-arrow-right-short fs-3 ms-2"></i>
+                    </button>
+                    <a href="#" class="custom-href">how our platform works</a>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}

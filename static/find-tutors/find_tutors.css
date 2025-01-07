@@ -1,0 +1,25 @@
+#nav-bar{
+    background-image: none;
+}
+#find_tutors .custom-container{
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 10%;
+}
+.custom-dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#find_tutors h1{
+    font-size: 3.93vw;
+}
+#find_tutors .custom-btn{
+    background-color: #d269cc;
+}
+#find_tutors .custom-btn:hover{
+    background-color: rgba(210, 105, 204, 0.85);
+}
+
+
+

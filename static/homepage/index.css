@@ -90,13 +90,6 @@
     font-family: 'Figtree', serif;
 }
 
-#last-card .custom-btn1 {
-    height: 8%;
-    font-size: large;
-    font-weight: 600;
-    font-family: 'Figtree', serif;
-}
-
 #last-card a {
     display: flex;
     justify-content: center;

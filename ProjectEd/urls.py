@@ -17,8 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+import tutorFinder
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('homepage.urls')),
     path('auth/', include('authentication.urls')),
+    path('find-tutors/', include('tutorFinder.urls')),
 ]

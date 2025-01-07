@@ -10,7 +10,6 @@ body{
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;
-    padding: 8px 15px;
 }
 #nav-bar .btn-outline-custom:hover {
     background-color: rgba(128, 128, 128, 0.1);
@@ -24,7 +23,6 @@ body{
     font-weight: bolder;
     font-size: 25px
 }
-
 #nav-bar{
     background-image: linear-gradient(to right, aquamarine, aqua);
 }
