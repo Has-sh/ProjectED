@@ -35,5 +35,8 @@ def auth_receiver(request):
     return redirect('http://localhost:8000/')
 
 
-def signup(request):
-    return None
+def student_signup(request):
+    return render(request, "student-signup/signup.html")
+
+def tutor_signup(request):
+    return render(request, "teacher-signup/signup.html")

@@ -7,7 +7,6 @@ body{
 }
 #nav-bar .btn-outline-custom {
     border: 2px solid black;
-    color: black;
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;

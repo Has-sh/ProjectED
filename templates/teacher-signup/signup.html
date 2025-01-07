@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'login/login.css' %}?v={{ now|date:'U' }}">
+    <link rel="stylesheet" href="{% static 'student-signup/signup.css' %}?v={{ now|date:'U' }}">
     <script src="https://accounts.google.com/gsi/client" async></script>
 
 {% endblock %}
@@ -13,11 +13,10 @@
     <section id="login">
         <div class="container-fluid d-flex align-items-center justify-content-center">
             <div class="col-12 col-md-4 p-4">
-                <h3 class="text-center custom-login">Login</h3>
+                <h3 class="text-center custom-login">Sign up as a tutor</h3>
                 <div class="d-flex justify-content-center align-items-center my-3">
-                    <a href="/auth/student/signup" class="custom-anchor">Sign up as a student</a>
-                    <p class="px-1 text-black m-0 custom-figtree-font">or</p>
-                    <a href="/auth/tutor/signup/" class="custom-anchor">Sign up as a tutor</a>
+                    <p class="px-1 text-black m-0 custom-figtree-font">Already have an account? </p>
+                    <a href="/auth/login/" class="custom-anchor">Log in</a>
                 </div>
                 <div id="g_id_onload"
                      data-client_id="1056269650812-itu8derpuln50o93khi1sjjbhfno9a2n.apps.googleusercontent.com"
@@ -43,20 +42,23 @@
                 </div>
                 <form>
                     <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Your name" pattern="[A-Za-z\s]+" minlength="3" title="Name must be at least 3 characters and only contain letters and spaces." required>
+                    </div>
+                    <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email" required>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="Your Password" required>
-                        <a href="#" class="custom-anchor" style="font-size: 14px">Forgot your password?</a>
                     </div>
                     <div class="mb-3 custom-figtree-font">
                         <label for="remember-me">
                             <input type="checkbox" id="remember-me" name="remember-me">Remember me
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-primary custom-btn w-100 mb-3">Log in</button>
+                    <button type="submit" class="btn btn-primary custom-btn w-100 mb-3">Sign up</button>
                 </form>
                 <div class="text-center custom-terms">
                     <p>
