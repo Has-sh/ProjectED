@@ -1,0 +1,74 @@
+{% extends "Base/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'login/login.css' %}?v={{ now|date:'U' }}">
+    <script src="https://accounts.google.com/gsi/client" async></script>
+
+{% endblock %}
+
+{% block title %} Login to your ProjectED account {% endblock %}
+
+{% block content %}
+    <section id="login">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4 p-4">
+                <h3 class="text-center custom-login">Login</h3>
+                <div class="d-flex justify-content-center align-items-center my-3">
+                    <a href="/auth/signup" class="custom-anchor">Sign up as a student</a>
+                    <p class="px-1 text-black m-0 custom-figtree-font">or</p>
+                    <a href="/auth/teach" class="custom-anchor">Sign up as a tutor</a>
+                </div>
+                <div id="g_id_onload"
+                     data-client_id="1056269650812-itu8derpuln50o93khi1sjjbhfno9a2n.apps.googleusercontent.com"
+                     data-context="signin"
+                     data-ux_mode="redirect"
+                     data-login_uri="http://localhost:8000/auth/auth-receiver"
+                     data-nonce=""
+                     data-itp_support="true">
+                </div>
+                <div class="g_id_signin"
+                     data-type="standard"
+                     data-shape="rectangular"
+                     data-theme="outline"
+                     data-text="continue_with"
+                     data-size="large"
+                     data-logo_alignment="center"
+                >
+                </div>
+                <div class="line-container my-3">
+                    <div class="line"></div>
+                    <span class="mx-3" style="font-family: 'Figtree', 'serif'; font-weight: 600;">or</span>
+                    <div class="line"></div>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Your Password">
+                        <a href="#" class="custom-anchor" style="font-size: 14px">Forgot your password?</a>
+                    </div>
+                    <div class="mb-3 custom-figtree-font">
+                        <label for="remember-me">
+                            <input type="checkbox" id="remember-me" name="remember-me">Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary custom-btn w-100 mb-3">Log in</button>
+                </form>
+                <div class="text-center custom-terms">
+                    <p>
+                        By clicking Continue or Sign up, you agree to ProjectED
+                        <br>
+                        <a href="#" target="_blank" class="custom-anchor">Terms of Use</a>, including
+                        <a href="#" target="_blank" class="custom-anchor">Subscription Terms</a> and
+                        <br>
+                        <a href="#" target="_blank" class="custom-anchor">Privacy Policy</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

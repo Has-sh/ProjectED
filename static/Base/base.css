@@ -1,0 +1,31 @@
+body{
+    font-family: 'Oswald',serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+.custom-figtree-font{
+    font-family: 'Figtree', 'serif';
+}
+#nav-bar .btn-outline-custom {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+#nav-bar .btn-outline-custom:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+#navbarSupportedContent {
+    font-size: 16px;
+    font-family: 'Figtree','serif';
+    font-weight: 600;
+}
+#nav-bar .navbar-brand {
+    font-weight: bolder;
+    font-size: 25px
+}
+
+#nav-bar{
+    background-image: linear-gradient(to right, aquamarine, aqua);
+}

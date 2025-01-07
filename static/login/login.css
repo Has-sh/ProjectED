@@ -1,0 +1,44 @@
+#nav-bar{
+    background-image: none;
+}
+#login .custom-login{
+    font-family: 'Oswald',sans-serif;
+    font-size: 32px;
+}
+#login .line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#login .custom-anchor{
+    font-family: 'Figtree', 'serif';
+    color: black;
+}
+#login .custom-anchor:hover{
+    color: darkcyan;
+}
+#login .custom-btn{
+    background-color: darkcyan;
+    font-family: 'Figtree', 'serif';
+    font-size: 18px;
+    font-weight: 600;
+}
+#login .custom-btn:hover{
+    background-color: rgba(0, 139, 139, 0.8);
+}
+
+.g_id_signin span {
+    font-size: 18px;
+    font-family: 'Figtree', serif;
+}
+.custom-terms{
+    font-size: 14px;
+    font-family: 'Figtree', 'serif';
+    font-weight: 400;
+    color: gray;
+}

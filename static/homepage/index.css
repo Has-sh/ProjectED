@@ -1,0 +1,111 @@
+#banner {
+    background-image: linear-gradient(to right, aquamarine, aqua);
+}
+
+#banner h1 {
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+@media (max-width: 768px) {
+    #banner h1 {
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+}
+
+#banner .text-row {
+    padding: 3%;
+}
+
+#cards .stat h2 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#cards .stat p {
+    text-align: center;
+    font-family: 'Figtree', serif;
+    font-weight: 600;
+}
+
+#cards .card-text {
+    font-family: 'Figtree', serif;
+    font-size: small;
+}
+
+#cards .fa-star {
+    font-size: 25px;
+}
+
+#cards .card-body i {
+    font-size: 25px;
+}
+
+#cards .card {
+    padding: 12px;
+}
+
+.custom-large-heading {
+    font-size: clamp(3rem, 6vw, 90px);
+    font-weight: bolder;
+}
+
+.custom-medium-heading {
+    font-size: clamp(2rem, 4vw, 60px);
+    font-weight: bold;
+}
+
+#middle-page p {
+    font-family: 'Figtree', serif;
+}
+
+#banner2 {
+    background-image: linear-gradient(to right, aquamarine, aqua);
+}
+
+#banner2 h1 {
+    font-size: 2rem; /* Default for smaller screens */
+}
+
+#banner2 p {
+    font-family: 'Figtree', serif;
+}
+
+#last-card .square-card {
+    padding: 0;
+}
+
+#last-card .container {
+    border-radius: .5%;
+    overflow: hidden;
+}
+
+#last-card .custom-card-right {
+    background-image: linear-gradient(to right, aquamarine, aqua);
+    padding: 5%;
+}
+
+#last-card p {
+    font-family: 'Figtree', serif;
+}
+
+#last-card .custom-btn1 {
+    height: 8%;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Figtree', serif;
+}
+
+#last-card a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Figtree', serif;
+}
+
+@media (min-width: 768px) {
+    #banner2 h1 {
+        font-size: 6rem; /* Larger font size for tablets and up */
+    }
+}
